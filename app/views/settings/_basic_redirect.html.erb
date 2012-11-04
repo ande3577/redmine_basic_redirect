@@ -1,0 +1,15 @@
+<div class="box tabular">
+  <p>
+    <%= label_tag 'settings[guide_redirect_url]', l(:basic_redirect_guild_url_title) %>
+    <%= text_field_tag 'settings[guide_redirect_url]', @settings[:guide_redirect_url], {:size => 36} %>
+  </p>
+  <p>
+    <%= label_tag 'settings[issues_redirect_url]', l(:basic_redirect_issues_url_title) %>
+    <%= text_field_tag 'settings[issues_redirect_url]', @settings[:issues_redirect_url], {:size => 36} %>
+  </p>
+  <p>
+    <%= label_tag 'settings[forum_redirect_url]', l(:basic_redirect_forum_url_title) %>
+    <%= text_field_tag 'settings[forum_redirect_url]', @settings[:forum_redirect_url], {:size => 36} %>
+  </p>
+</div>
+

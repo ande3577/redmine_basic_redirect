@@ -1,0 +1,2 @@
+module BasicRedirectHelper
+end
