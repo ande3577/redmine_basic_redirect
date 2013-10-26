@@ -1,6 +1,5 @@
 # English strings go here for Rails i18n
 en:
   basic_redirect_settings_general_title: "Basic Redirect Settings"
-  basic_redirect_guild_url_title: "Guide URL"
   basic_redirect_issues_url_title: "Issues URL"
   basic_redirect_forum_url_title: "Forum URL"

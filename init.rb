@@ -1,6 +1,6 @@
 Redmine::Plugin.register :redmine_basic_redirect do
   
-  settings :default => {:guide_redirect_url => '', :issues_redirect_url => '', :forum_redirect_url => ''}, :partial => 'settings/basic_redirect'
+  settings :default => {:issues_redirect_url => '', :forum_redirect_url => ''}, :partial => 'settings/basic_redirect'
       
   name 'Redmine Basic Redirect plugin'
   author 'David S Anderson'

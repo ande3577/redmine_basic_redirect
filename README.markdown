@@ -6,15 +6,14 @@ Allows for defining a limited number of top-level urls.  This allows for creatin
 
 The following redirects are available
 
-* */guide* link to a user guide to using your issue tracker
-
 * */mainissues* link to the issue tracking for your issue tracker
 
 * */mainissues/new* create a new issue tracker for your issue tracker
 
 * */forum* link to a forum for the issue tracker
 
-
+Guide support has been removed, to redirect a guide link to a project's wiki
+page, see:  https://github.com/ande3577/redmine_redirect_help
 
 ## Installing
 
@@ -35,4 +34,4 @@ The links can be set via the _Administration->plugins->Redmine Basic Redirect Op
 * An empty url wil result in a 404 error if the link is accessed
 
 The redirect can the be accessed by linking to:
-> http:www.your-redmine-server.com/guide
+> http:www.your-redmine-server.com/issues
